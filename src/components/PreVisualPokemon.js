@@ -13,7 +13,7 @@ function PreVisualPokemon(props) {
       })
       .catch((err) => {
         console.log(err);
-        setPokemon(null); // Defina pokemon como null em caso de erro
+        setPokemon(null); 
       });
   }
 
@@ -25,11 +25,16 @@ function PreVisualPokemon(props) {
     <div className='container'>
       {pokemon ? (
         <div>
-          <img src={pokemon.sprites?.front_default} alt={pokemon.name} />
+          <div>
+          <img src={pokemon.sprites?.front_default} alt={pokemon.name} /> 
+          <img src={pokemon.sprites?.back_default} alt={pokemon.name} />
+          </div>
+          <div className='infospoke'>
           <div>Nome: {pokemon.name}</div>
           <div>Número: {pokemon.id}</div>
           <div>Peso: {pokemon.weight / 10}</div>
           <div>Altura: {pokemon.height}</div>
+          </div>
         </div>
       ) : (
         <p>Carregando...</p>

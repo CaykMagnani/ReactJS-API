@@ -4,14 +4,14 @@ import PreVisualPokemon from './components/PreVisualPokemon.js';
 import './style.css';
 
 function App() {
-  const [valorInputTemp, setValorInputTemp] = useState('charizard'); // Estado temporário
+  const [valorInputTemp, setValorInputTemp] = useState(''); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setValorInput(valorInputTemp); // Atualize o valorInput apenas quando o botão for clicado
+    setValorInput(valorInputTemp);
   }
 
-  const [valorInput, setValorInput] = useState(''); // Inicialize com uma string vazia
+  const [valorInput, setValorInput] = useState(''); 
 
   return (
     <div>
@@ -22,6 +22,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
+            placeholder="Pesquise Seu Pokemon"
             value={valorInputTemp} // Use valorInputTemp para exibir no input
             onChange={(e) => setValorInputTemp(e.target.value)} // Atualize valorInputTemp à medida que o usuário digita
           />
