@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <header>
-        <strong>Pokemon API</strong>
+        <strong>API Que Eu Ainda Não Decidi</strong>
       </header>
       <div className='container'>
         <form onSubmit={handleSubmit}>
