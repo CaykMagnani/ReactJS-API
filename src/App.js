@@ -1,36 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import PreVisualPokemon from './components/PreVisualPokemon.js';
-import './style.css';
+import Home from './pages/Home';
 
 function App() {
-  const [valorInputTemp, setValorInputTemp] = useState(''); 
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setValorInput(valorInputTemp);
-  }
-
-  const [valorInput, setValorInput] = useState(''); 
 
   return (
-    <div>
-      <header>
-        <strong>API Pokemon Master</strong>
-      </header>
-      <div className='container'>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Pesquise Seu Pokemon"
-            value={valorInputTemp} // Use valorInputTemp para exibir no input
-            onChange={(e) => setValorInputTemp(e.target.value)} // Atualize valorInputTemp à medida que o usuário digita
-          />
-          <button type='submit'>Enviar</button>
-        </form>
-      </div>
-      <PreVisualPokemon linkPokemon={valorInput} />
-    </div>
+    <>
+    <Home />
+    </>
   );
 }
 
