@@ -5,7 +5,7 @@ Este é um projeto de Pokedex simples criado com React.js, onde você pode explo
 ## Tecnologias Usadas
 
 - **React.js:** Uma biblioteca JavaScript popular para a criação de interfaces de usuário interativas e componentes reutilizáveis.
-- **useState:** Um dos hooks incorporados do React para gerenciamento de estado no componente.
+- **MUI MAterial** Usado Para estilização
 
 ## Funcionalidades
 
