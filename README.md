@@ -26,6 +26,7 @@ Siga estas etapas para executar o projeto em seu ambiente local:
     npm install
     npm install @mui/material @emotion/react @emotion/styled
     npm install react-router-dom
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 
 3. **Iniciar**
     npm start
