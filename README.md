@@ -1,7 +1,5 @@
 # Pokedex - Projeto com React.js e PokeAPI
 
-![Pokedex Screenshot](pokedex-screenshot.png)
-
 Este é um projeto de Pokedex simples criado com React.js, onde você pode explorar informações sobre os Pokémon usando a [PokeAPI](https://pokeapi.co/). Utilizamos o hook `useState` para gerenciar o estado do aplicativo.
 
 ## Tecnologias Usadas
@@ -22,10 +20,12 @@ Siga estas etapas para executar o projeto em seu ambiente local:
 1. **Clonar o Repositório:**
    ```bash
    git clone https://github.com/CaykMagnani/ReactJS-API.git
-   cd pokedex-react
+   cd ReactJS-API
 
 2. **Instalar Dependencias:**
     npm install
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install react-router-dom
 
 3. **Iniciar**
     npm start
