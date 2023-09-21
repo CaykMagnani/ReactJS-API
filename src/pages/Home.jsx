@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PokemonCard from "../components/PokemonCard";
 import { Skeletons } from "../components/Skeletons";
-import Navbar from "./src/components/Navbar";
+import Navbar from "../components/Navbar";
 
 export const Home = ({ setPokemonData }) => {
   const [pokemons, setPokemons] = useState([]);

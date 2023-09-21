@@ -59,7 +59,7 @@ export default function Navbar({ pokemonFilter, hideSearch }) {
       <AppBar position="static" sx={{ backgroundColor: "black" }}>
         <Toolbar>
           <Box display="flex" justifyContent="space-between" width="100%">
-            <Box component="img" src="/assets/pokemon-logo.png" height="3em" sx={{ cursor: "pointer" }} onClick={() => navigate("/")} />
+            <Box component="img" src="https://assets.stickpng.com/images/612ce4761b9679000402af1c.png" height="3em" sx={{ cursor: "pointer" }} onClick={() => navigate("/")} />
             {!hideSearch && (
               <Search onChange={(e) => pokemonFilter(e.target.value)}>
                 <SearchIconWrapper>
