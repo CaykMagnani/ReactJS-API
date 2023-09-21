@@ -1,3 +1,7 @@
+# Projeto Hospedado: https://react-js-api-rouge.vercel.app/
+
+![Texto Alternativo](./src/components/Print.png)
+
 # Pokedex - Projeto com React.js e PokeAPI
 
 Este é um projeto de Pokedex simples criado com React.js, onde você pode explorar informações sobre os Pokémon usando a [PokeAPI](https://pokeapi.co/). Utilizamos o hook `useState` para gerenciar o estado do aplicativo.
